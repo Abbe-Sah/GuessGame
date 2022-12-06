@@ -45,9 +45,4 @@ public class Trivia  {
         return lines.get(random.nextInt(lines.size()));
     }
 
-    public static void main(String[] args) throws IOException {
-        loadTrivia();
-        System.out.println(randomQuery());
-
-    }
 }
